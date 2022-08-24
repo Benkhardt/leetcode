@@ -20,4 +20,4 @@ Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int w
 ## Usage:
 1. Clone repo: `git clone https://github.com/Benkhardt/leetcode.git`
 2. Compile using 'make' and 'Makefile', following cmd's are available:`make` `make clean` `make fclean` `make re` `make debug`
-3. ./addTwo \<arg1\> \<arg2\> <sup>The currect usage needs two linked lists</sup>
+3. ./addTwo `\<arg1\> \<arg2\>`
