@@ -11,10 +11,13 @@ You are given two non-empty linked lists representing two non-negative integers.
 |**Output:**|`[7,0,8]`|
 |**Explanation:**|`342 + 465 = 807`|
 
-Linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int would be *342* , L2 as int would be *465*. 
-</img>
-
+Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int would be *342* , L2 as int would be *465*. 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
 ## Usage:
-- Clone repo: `git clone ` 
-- Execute make using 'Makefile', following cmd's are available:`make` `make clean` `make fclean` `make re` `make debug`
-- 
+1. Clone repo: `git clone https://github.com/Benkhardt/leetcode.git`
+2. Compile using 'make' and 'Makefile', following cmd's are available:`make` `make clean` `make fclean` `make re` `make debug`
+3. ./addTwo \<arg1\> \<arg2\> <sup>The currect usage needs two linked lists</sup>
