@@ -7,8 +7,8 @@ You are given two non-empty linked lists representing two non-negative integers.
 
 |what|example|
 | ----- | ----- |
-|**Input:**|`l1 = [2,4,3], l2 = [5,6,4]`|
+|**Input:**|`L1 = [2,4,3], L2 = [5,6,4]`|
 |**Output:**|`[7,0,8]`|
 |**Explanation:**|`342 + 465 = 807`|
 
-As you can see here 
+Linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int would be *342* , L2 as int would be *465*.
