@@ -27,7 +27,8 @@ Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int w
 
 ### Additional Information:
 <br/>
-I don't know the exact limits but it should be:
+
+I don't know the exact limits but it should be: <br/>
 **Range:** UINT_MIN < \[arg1, arg2\] < UINT_MAX (<limits.h>)
 
 Not all functions are necessarry to accomplish the challenge. Some of them are just to debug:
