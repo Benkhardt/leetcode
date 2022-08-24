@@ -22,4 +22,4 @@ Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int w
 | ----- | ----- |
 |1. Clone repo: |`git clone https://github.com/Benkhardt/leetcode.git`|
 |2. Compile: |`make` `make clean` `make fclean` `make re` `make debug`|
-|3. Execute binary: |`./addTwo \<arg1\> \<arg2\>`|
+|3. Execute binary: |`./addTwo <arg1> <arg2>`|
