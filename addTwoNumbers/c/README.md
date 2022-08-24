@@ -32,7 +32,7 @@ I don't know the exact limits but it should be: <br/>
 **Range:** UINT_MIN < \[arg1, arg2\] < UINT_MAX (<limits.h>)
 
 Not all functions are necessarry to accomplish the challenge. Some of them are just to debug:
-- `t_list         *itol(unsigned long long sum, t_list *start);` -> * *start should be NULL...  
+- `t_list         *itol(unsigned long long sum, t_list *start);` *\*start should be NULL...*
 - `void			      print_lst(t_list *lst);`
 - `void			      free_lst(t_list *lst);` -> free() from top to bottom 
 
