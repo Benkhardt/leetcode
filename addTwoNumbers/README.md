@@ -1,4 +1,5 @@
 # addTwoNumbers
+<br/>
 
 ### Description:
 
@@ -14,13 +15,8 @@ You are given two non-empty linked lists representing two non-negative integers.
 |**Output:**|`[7,0,8]`|
 |**Explanation:**|`342 + 465 = 807`|
 
-Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int would be *342* , L2 as int would be *465*. 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/><br/>
-
+Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int would be *342* , L2 as int would be *465*.
+<br/><br/><br/><br/><br/><br/>
 ### Usage:
 
 |Short|cmd|
@@ -30,7 +26,7 @@ Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int w
 |3. Execute binary: |`./addTwo <arg1> <arg2>`|
 
 ### Additional Information:
-
+<br/>
 I don't know the exact limits but it should be:
 **Range:** UINT_MIN < \[arg1, arg2\] < UINT_MAX (<limits.h>)
 
