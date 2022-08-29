@@ -6,7 +6,7 @@
 #    By: dbenkhar <dbenkhardt@students.42wolfsburg. +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/29 06:49:05 by dbenkhar          #+#    #+#              #
-#    Updated: 2022/08/29 15:27:33 by dbenkhar         ###   ########.fr        #
+#    Updated: 2022/08/29 15:39:45 by dbenkhar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,8 +20,6 @@ class Solution:
     def addTwoNumbers(self, l1, l2):
         hold = 0
         new_lst = None
-        #tmp1 = l1
-        #tmp2 = l2
         while l1 and l2 is not None:
             new_node = ListNode()
             new_node.next = new_lst
@@ -64,12 +62,10 @@ class Solution:
 
 def swaplist(lst):
 	new_lst = None
-	tmp = lst
-	while tmp is not None:
+	while lst is not None:
 		new = ListNode()
-		new.val = tmp.val
+		new.val = lst.val
 		new.next = new_lst
 		new_lst = new
-		tmp = tmp.next
+		lst = lst.next
 	return new_lst
-	
