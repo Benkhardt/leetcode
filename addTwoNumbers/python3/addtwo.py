@@ -6,11 +6,10 @@
 #    By: dbenkhar <dbenkhardt@students.42wolfsburg. +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/29 06:49:05 by dbenkhar          #+#    #+#              #
-#    Updated: 2022/08/29 15:39:45 by dbenkhar         ###   ########.fr        #
+#    Updated: 2022/08/29 15:42:23 by dbenkhar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Definition for singly-linked list.
 class ListNode:
 	def __init__(self, val=0, next=None):
 		self.val = val
