@@ -6,7 +6,7 @@
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/10 13:23:42 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/10 16:52:06 by dbenkhar         ###   ########.fr       */
+/*   Updated: 2022/09/10 16:54:23 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,5 @@ public:
 };
 
 std::vector<int>	mergeArrays(std::vector<int> a, std::vector<int>b, int n, int m);
-
 
 #endif
