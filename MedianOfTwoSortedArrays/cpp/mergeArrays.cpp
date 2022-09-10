@@ -1,27 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   median.hpp                                         :+:      :+:    :+:   */
+/*   mergeArrays.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/10 13:23:42 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/10 13:51:01 by dbenkhar         ###   ########.fr       */
+/*   Created: 2022/09/10 13:42:43 by dbenkhar          #+#    #+#             */
+/*   Updated: 2022/09/10 13:51:08 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MEDIAN_HPP
-# define MEDIAN_HPP
+#include "median.hpp"
 
-# include <iostream>
-# include <iomanip>
+// class Utils{
+// public:
+// 	void mergeArrays(vector<int> a, vector<int>b, int n, int m);
+// };
 
-class Solution{
-public:
-	double findMedianSortedArrays(std::vector<int> nums1, std::vector<int> nums2);
-};
-
-void	mergeArrays(std::vector<int> a, std::vector<int>b, int n, int m);
-
-
-#endif
+void mergeArrays(std::vector<int> a, std::vector<int>b, int n, int m){
+	
+}
