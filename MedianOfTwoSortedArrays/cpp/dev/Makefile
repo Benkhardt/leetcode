@@ -6,7 +6,7 @@
 #    By: dbenkhar <dbenkhardt@students.42wolfsburg. +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/10 05:46:43 by dbenkhar          #+#    #+#              #
-#    Updated: 2022/09/10 05:53:03 by dbenkhar         ###   ########.fr        #
+#    Updated: 2022/09/11 04:35:16 by dbenkhar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,8 +17,8 @@ CC = clang++
 CFLAGS = -Wall -Werror -Wextra
 
 SRC =	main.cpp \
-		median.cpp \
-		utils.cpp \
+		findMedianSortedArrays.cpp \
+		mergeArrays.cpp \
 
 OBJ = $(SRC:.cpp=.opp)
 
