@@ -1,4 +1,4 @@
-# addTwoNumbers - 'C'
+# addTwoNumbers - 'python3'
 <br/>
 
 ### Description:

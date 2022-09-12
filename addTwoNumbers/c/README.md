@@ -1,4 +1,4 @@
-# addTwoNumbers - 'C'
+# addTwoNumbers - 'c'
 <br/>
 
 ### Description:
@@ -29,7 +29,13 @@ Single linked lists (L1 & L2) from top to bottom in reverse order -> L1 as int w
 <br/>
 
 I don't know the exact limits but it should be: <br/>
-**Range:** UINT_MIN < \[arg1, arg2\] < UINT_MAX (<limits.h>)
+**myRange:**	my testenv has UINT_MIN < \[arg1, arg2\] < UINT_MAX (limits.h)<br/>
+				can handle leading **zeroes** <br/>
+				1-100 nodes<br/>
+**givenRange:**	0 <= Node.val <= 9 <br/>
+				no leading zero <br/>
+				1-100 nodes<br/>
+				
 
 Not all functions are necessarry to accomplish the challenge. Some of them are just to debug:
 - `t_list         *itol(unsigned long long sum, t_list *start);` *\*start should be NULL...*
