@@ -6,7 +6,7 @@
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 15:48:02 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/12 21:54:05 by dbenkhar         ###   ########.fr       */
+/*   Updated: 2022/09/12 21:58:34 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(int argc, char **argv){
 	t_ListNode	*l2 = createList(argv[2]);
 	printList(l1);
 	printList(l2);
-	l1 = reverseList(l2);
-	printList(l1);
+	l2 = reverseList(l2);
+	printList(l2);
 	return 0;
 }
