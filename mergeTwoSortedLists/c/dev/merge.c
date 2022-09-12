@@ -6,7 +6,7 @@
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 15:48:00 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/12 20:52:45 by dbenkhar         ###   ########.fr       */
+/*   Updated: 2022/09/12 21:35:08 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,5 @@ struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2){
 
 	list.next = NULL;
 	list.val = 0;
-	reverseList(&list1);
-	reverseList(&list2);
+	
 }

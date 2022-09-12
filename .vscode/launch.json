@@ -9,7 +9,7 @@
 			"request": "launch",
 			"name": "Debug",
 			"program": "/Users/dbenkhar/Documents/leetcode/mergeTwoSortedLists/c/dev/mergeLists",
-			"args": ["1 2 3 4 5", "7 8 9 22"],
+			"args": ["4 2 1", "9 8 7 6 5"],
 			"cwd": "/Users/dbenkhar/Documents/leetcode/mergeTwoSortedLists/c/dev/"
 		}
 	]

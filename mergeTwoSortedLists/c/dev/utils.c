@@ -6,7 +6,7 @@
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 15:47:46 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/12 21:10:06 by dbenkhar         ###   ########.fr       */
+/*   Updated: 2022/09/12 21:51:17 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,16 +85,18 @@ void	printList(t_ListNode *list){
 	printf("\n");
 }
 
-void	findLast(t_ListNode *list, t_ListNode **last, int *count){
-	while (list->next != NULL)
-		list = list->next;
-	last[0] = list;
-}
-
-void	reverseList(struct ListNode *list){
+t_ListNode	*reverseList(struct ListNode *list){
 	if (list == NULL)
-		return ;
-	struct ListNode *tmp, *last;
-	int count = 0;
-	findLast(list, &last, &count);
+		return NULL;
+	t_ListNode		*rtn = NULL;
+	t_ListNode		*new;
+
+	while(list != NULL){
+		new = malloc(sizeof(t_ListNode));
+		new->val = list->val;
+		new->next = rtn;
+		rtn = new;
+		list = list->next;
+	}
+	return (rtn);
 }

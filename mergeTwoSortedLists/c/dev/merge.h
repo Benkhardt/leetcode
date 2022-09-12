@@ -6,7 +6,7 @@
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 15:45:45 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/12 21:10:05 by dbenkhar         ###   ########.fr       */
+/*   Updated: 2022/09/12 21:35:06 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ typedef struct	ListNode {
 
 t_ListNode		*createList(const char *s);
 void			printList(t_ListNode *list);
-struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2)
-void			reverseList(struct ListNode *list, int *count);
+struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2);
+t_ListNode		*reverseList(struct ListNode *list);
 
 #endif
