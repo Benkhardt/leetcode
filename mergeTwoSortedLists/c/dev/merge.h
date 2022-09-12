@@ -1,33 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   merge.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/11 20:53:29 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/12 16:43:23 by dbenkhar         ###   ########.fr       */
+/*   Created: 2022/09/12 15:45:45 by dbenkhar          #+#    #+#             */
+/*   Updated: 2022/09/12 18:20:47 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "merge.hpp"
+#ifndef MERGE_H
+# define MERGE_H
 
-static ListNode *createList(const char *s){
-	if (!s)
-		return (NULL);
-	t_ListNode	*head;
-	std::string s;
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
 
-	for (int i = 0; s[i] != '\0'; i++){
-		if (s[i] == ' ')
-			
-	}
-}
+typedef struct	ListNode {
+		int val;
+		struct ListNode *next;
+}t_ListNode;
 
-int main(int argc, char *argv[]){
-	if (argc != 2){
-		perror("worng numer of arguments\n");
-		return (-1);
-	}
-	
-}
+t_ListNode	*createList(const char *s);
+void		printList(t_ListNode *list);
+
+#endif

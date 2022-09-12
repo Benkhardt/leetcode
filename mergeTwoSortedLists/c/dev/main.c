@@ -1,33 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/11 20:53:29 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/12 16:43:23 by dbenkhar         ###   ########.fr       */
+/*   Created: 2022/09/12 15:48:02 by dbenkhar          #+#    #+#             */
+/*   Updated: 2022/09/12 18:20:41 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "merge.hpp"
+#include "merge.h"
 
-static ListNode *createList(const char *s){
-	if (!s)
-		return (NULL);
-	t_ListNode	*head;
-	std::string s;
-
-	for (int i = 0; s[i] != '\0'; i++){
-		if (s[i] == ' ')
-			
+int main(int argc, char **argv){
+	if (argc != 3){
+		perror("wrong number of arguments!\n");
+		return -1;
 	}
-}
+	t_ListNode	*l1 = createList(argv[1]);
+	t_ListNode	*l2 = createList(argv[2]);
 
-int main(int argc, char *argv[]){
-	if (argc != 2){
-		perror("worng numer of arguments\n");
-		return (-1);
-	}
-	
+	printList(l1);
+	printList(l2);
+	return 0;
 }
