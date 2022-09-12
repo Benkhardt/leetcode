@@ -6,7 +6,7 @@
 /*   By: dbenkhar <dbenkhardt@student.42wolfsburg.d +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/12 15:47:46 by dbenkhar          #+#    #+#             */
-/*   Updated: 2022/09/12 18:22:30 by dbenkhar         ###   ########.fr       */
+/*   Updated: 2022/09/12 20:52:42 by dbenkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,4 +83,8 @@ void	printList(t_ListNode *list){
 		list = list->next;
 	}
 	printf("\n");
+}
+
+void	reverseList(struct ListNode *list){
+	
 }
