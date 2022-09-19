@@ -1,16 +1,14 @@
+
 {
-	// Use IntelliSense to learn about possible attributes.
-	// Hover to view descriptions of existing attributes.
-	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-	"version": "0.2.0",
 	"configurations": [
-		{
-			"type": "lldb",
-			"request": "launch",
-			"name": "Debug",
-			"program": "/Users/dbenkhar/Documents/leetcode/mergeTwoSortedLists/c/dev/mergeLists",
-			"args": ["4 2 1", "9 8 7 6 5"],
-			"cwd": "/Users/dbenkhar/Documents/leetcode/mergeTwoSortedLists/c/dev/"
-		}
+		
+	{
+		"type": "lldb",
+		"request": "launch",
+		"name": "Launch",
+		"program": "/Users/dbenkhar/Documents/Docu/leetcode/atoi/cpp/dev/myAtoi",
+		"args": ["123"],
+		"cwd": "/Users/dbenkhar/Documents/Docu/leetcode/atoi/cpp/dev/"
+	}
 	]
 }
